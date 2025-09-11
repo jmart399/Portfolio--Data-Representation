@@ -16,4 +16,6 @@ gcc -o convert convert .c main .c
 147/147 tests passed
 
 ## Notes
-Due to the small amount of code in this assignment, I combined the implementation and the testing into one file for better readability and file management.
+My biggest issue was dealing with the array sizes at larger numbers accross different bases. There are a few brute force and patchwork solutions that certainly lack efficiency. As a thought experiment I attempted to find effecient array sizes for each base, but I ran into issues with edge cases. Still, that led me to discover that sizeof() is an excellent go-to.
+
+I also was pleasantly surprised with how user-firendly it was to learn and code in C given its close relationship to the hardware. Perhaps that is a false comparison, but either way it was mostly intuitive.
