@@ -16,3 +16,4 @@ gcc -o convert convert .c main .c
 147/147 tests passed
 
 ## Notes
+Due to the small amount of code in this assignment, I combined the implementation and the testing into one file for better readability and file management.
